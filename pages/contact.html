@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="container">
+    <header>
+        <h1>Netball Balls</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="../products.php">Products</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="faq.html">FAQ</a>
+            <a href="add_netball.html">Add Netballs</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+        <h1>Contact Us</h1>
+        <p>If you have any questions or need further information, please feel free to contact us. We are here to assist you and provide the best possible service.</p>
+        
+        <form method="post" action="../contact.php">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+
+    <footer>
+        <p>&copy; 2024 Netball Balls. All rights reserved.</p>
+    </footer>
+</body>
+</html>
